@@ -5,3 +5,5 @@ installation: `pip3 install jinja2hass`
 
 usage: `jinja2hass template.yaml input.csv output.yaml`
 
+the jinja2 template gets the csv entries as a dict named entries where the keys are the csv headers.
+
